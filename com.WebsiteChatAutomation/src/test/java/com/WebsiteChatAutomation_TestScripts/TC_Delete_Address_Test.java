@@ -19,8 +19,6 @@ public class TC_Delete_Address_Test extends Base_Test {
 		Thread.sleep(3000);
 		driver.switchTo().alert().accept();
 		
-		Thread.sleep(3000);
-		driver.quit();
 	}
 
 }
