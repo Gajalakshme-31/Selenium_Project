@@ -32,7 +32,7 @@ public class TC_Add_New_Address_Test extends Base_Test {
 		addNewAddressPage.getPhoneNumber().sendKeys(fileUtility.readDataFromExcelFile("Sheet1", 1, 7));
 		addNewAddressPage.getSaveButton().click();
 	
-
+		System.out.println("End of form filling");
 		Thread.sleep(3000);
 		webDriverUtility.webPageScreenShot(driver);
 
