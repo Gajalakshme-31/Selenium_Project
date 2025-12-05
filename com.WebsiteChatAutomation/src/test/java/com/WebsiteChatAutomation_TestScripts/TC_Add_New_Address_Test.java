@@ -33,6 +33,7 @@ public class TC_Add_New_Address_Test extends Base_Test {
 		addNewAddressPage.getSaveButton().click();
 	
 		System.out.println("End of form filling");
+		System.out.println("change");
 		Thread.sleep(3000);
 		webDriverUtility.webPageScreenShot(driver);
 
